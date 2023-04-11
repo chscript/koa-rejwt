@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "declaration": true,
+    "declarationDir": "types",
+    "lib": [
+      "esnext",
+    ],
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "test",
+  ],
+}
